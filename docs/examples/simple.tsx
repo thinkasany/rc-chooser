@@ -1,14 +1,14 @@
-import React, { useCallback, useState } from 'react';
+import React, { useState } from 'react';
 import Chooser from '@/index';
 
-const containerStyle = {
+const containerStyle: React.CSSProperties = {
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
   flexWrap: 'wrap',
 };
 
-const boxStyle = {
+const boxStyle: React.CSSProperties = {
   width: 40,
   height: 40,
   border: '1px solid red',
@@ -40,9 +40,9 @@ const Child = React.memo(({ selected }: { selected: string[] }) => {
 export default () => {
   const [selected, setSelected] = useState<string[]>([]);
 
-  const observeHandle = useCallback((data: string[]) => {
+  const observeHandle = (data: string[]) => {
     setSelected(data);
-  }, []);
+  };
 
   return (
     <div style={{ margin: 20 }}>
