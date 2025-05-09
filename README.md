@@ -12,7 +12,7 @@
 
 ```ts
 import React, { useState } from 'react';
-import Chooser from '@/index';
+import Chooser from 'rc-chooser';
 
 const containerStyle: React.CSSProperties = {
   display: 'flex',
