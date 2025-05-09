@@ -1,7 +1,7 @@
 ---
 hero:
-  title: rc-switch
-  description: React Switch Component
+  title: rc-chooser
+  description: React chooser Component
 ---
 
 <embed src="../README.md"></embed>
