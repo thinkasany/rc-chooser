@@ -10,6 +10,8 @@
 
 ### Usage
 
+[预览 DEMO](https://thinkasany.github.io/rc-chooser/demo/simple)
+
 ```ts
 import React, { useState } from 'react';
 import Chooser from 'rc-chooser';
